@@ -1,0 +1,65 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+table {
+	width: 450px;
+	margin-bottom: 20px;
+	border: 2px solid #dddddd;
+	border-collapse: collapse;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+    width: 0%;
+	border: 1px solid #cacaca;
+	padding: 5px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+input[type=number] {
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    width: 50px;
+    }
+
+button {
+    background-color: #202020; /* Green */
+    border-radius: 15px;
+    border-color: #000000;
+    color: rgb(235, 235, 235);
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.buttonEvent{
+    display: flexbox;
+}
+
+
+button:hover {
+    background-color: #3d3d3d; /* Green */
+    color: white;
+  }
+
+#resultparent{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+#resultparent p{
+    margin: 0;
+}
